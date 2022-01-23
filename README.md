@@ -25,8 +25,8 @@ This is a solution to the [Order Summary component challenge on Frontend Mentor]
 
 ### Links
 
-- Solution URL: [Source code](https://github.com/waltersono/frontendmentor-profile-card)
-- Live Site URL: [Live project](https://waltersono.github.io/frontendmentor-profile-card/)
+- Solution URL: [Source code](https://github.com/waltersono/order-summary-component)
+- Live Site URL: [Live project](https://waltersono.github.io/order-summary-component)
 
 ## My process
 
