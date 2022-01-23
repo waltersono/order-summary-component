@@ -1,0 +1,142 @@
+:root {
+  --color-primary-1: hsl(225, 100%, 94%);
+  --color-primary-2: hsl(245, 75%, 52%);
+  --color-neutral-1: hsl(225, 100%, 98%);
+  --color-neutral-2: hsl(224, 23%, 55%);
+  --color-neutral-3: hsl(223, 47%, 23%);
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Red Hat Display";
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-primary-1);
+  line-height: 1.8;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 100%;
+}
+
+.order {
+  background-color: #fff;
+  border-radius: 1.5rem;
+  max-width: 40rem;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+.order__body {
+  padding: 1rem;
+}
+
+.order__image {
+  margin-bottom: 1rem;
+}
+
+.order__title {
+  font-size: 2.6rem;
+  font-weight: 900;
+  color: var(--color-neutral-3);
+  margin-bottom: 1rem;
+}
+
+.order__paragraph {
+  color: var(--color-neutral-2);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.plan {
+  display: flex;
+  align-items: center;
+  background-color: var(--color-neutral-1);
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.plan__info {
+  text-align: left;
+  margin-left: 2rem;
+}
+
+.plan__type {
+  display: block;
+  font-weight: 900;
+  color: var(--color-neutral-3);
+}
+
+.plan__price {
+  color: var(--color-neutral-2);
+  font-weight: 500;
+}
+
+.plan__btn:link,
+.plan__btn:active {
+  margin-left: auto;
+  color: var(--color-primary-2);
+  font-weight: 700;
+}
+
+.plan__btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.order__btn {
+  border: none;
+  outline: none;
+  display: block;
+  border-radius: 1rem;
+  padding: 1.3em 2em;
+  font-weight: 900;
+  width: 100%;
+  margin-bottom: 1.2rem;
+  background-color: transparent;
+  font-size: 1.5rem;
+}
+
+.order__btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.order__btn--primary {
+  color: #fff;
+  background-color: var(--color-primary-2);
+  box-shadow: 1rem 2rem 4rem rgba(0, 0, 0, 0.2);
+}
+
+.order__btn--secondary {
+  color: var(--color-neutral-2);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
